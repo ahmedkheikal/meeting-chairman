@@ -1,0 +1,48 @@
+* {
+  font-family: 'ubuntu', sans-serif;
+}
+/*cover*/
+.cover {
+  background: #222;
+  color: #fafafa;
+  position: relative;
+}
+
+.cover img {
+  width: 60%;
+  height: calc( 100vh - 56px );
+  object-fit: cover;
+  filter: brightness(.4);
+
+
+  mask-image: -moz-linear-gradient(right, rgba(68,68,68,0) 0%, rgba(68,68,68,0) 16%, rgba(68,68,68,0.94) 95%, rgba(68,68,68,1) 100%);
+  mask-image: -webkit-linear-gradient(right, rgba(68,68,68,0) 0%,rgba(68,68,68,0) 16%,rgba(68,68,68,0.94) 95%,rgba(68,68,68,1) 100%);
+  mask-image: linear-gradient(to left, rgba(68,68,68,0) 0%,rgba(68,68,68,0) 16%,rgba(68,68,68,0.94) 95%,rgba(68,68,68,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00444444', endColorstr='#222444',GradientType=1 );
+}
+.first-headline {
+
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00222222', endColorstr='#222222',GradientType=1 );
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  width: 50%;
+
+}
+.first-headline p {
+  margin-top: 20px;
+  line-height: 200%;
+  font-size: 17px;
+}
+
+/*cover*/
+
+
+footer {
+  width: 100%;
+  background: #fafafa;
+
+}
+footer .footer-content {
+  width: 100%;
+}

@@ -1,6 +1,7 @@
 @extends('templates.skeleton')
-
-@section('styles') @endsection
+@section('styles')
+  <link rel="stylesheet" href="{{ asset('css/static.css') }}">
+@endsection
 
 @section('content')
   @include('sections.header')
@@ -12,27 +13,8 @@
     </div>
   </div>
 
-  <div class="container">
-
-    <div class="features">
-      <div class="row">
-        <div class="col-md-4">
-          <h3>Feature 1</h3>
-        </div>
-        <div class="col-md-4">
-          <h3>Feature 2</h3>
-
-        </div>
-        <div class="col-md-4">
-          <h3>Feature 3</h3>
-
-        </div>
-      </div>
-    </div>
+  <div class="container mt-4">
+    @yield('static-content')
   </div>
-
-
   @include('sections.footer')
 @endsection
-
-@section('scripts') @endsection
