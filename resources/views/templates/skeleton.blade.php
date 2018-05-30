@@ -5,12 +5,13 @@
     about the project,
     etc ...
   )
+  NOTE: THIS SKELETON IS STILL VALID FOR ALL PROJECT PAGES EVEN APP LOGIC RELATED
 --}}
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-    <title>{{ $title }}</title>
+    <title>{{ $title . $suffix }}</title>
     {{-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> --}}
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">     {{-- compiled from mix --}}
     @yield('styles')

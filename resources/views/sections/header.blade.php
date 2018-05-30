@@ -9,13 +9,10 @@
 
     <div class="collapse navbar-collapse" id="MainNavBar">
       <ul class="navbar-nav mr-auto ">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
+        <li class="nav-item {{$suffix == ' |  About' ? 'active' : ''}}">
           <a class="nav-link" href="/about">About the project</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item {{$suffix == ' |  Contact Us' ? 'active' : ''}}">
           <a class="nav-link" href="/contact-us">Contact us</a>
         </li>
       </ul>
