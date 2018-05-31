@@ -17,14 +17,14 @@
     <div class="features">
       <div class="row">
         <div class="col-md-4">
-          <h3>Feature 1</h3>
+          <h4>Mange your meetings</h4>
         </div>
         <div class="col-md-4">
-          <h3>Feature 2</h3>
+          <h4>Organize meeting by allowing speech for each participant</h4>
 
         </div>
         <div class="col-md-4">
-          <h3>Feature 3</h3>
+          <h4>Rate meetings and team members</h4>
 
         </div>
       </div>

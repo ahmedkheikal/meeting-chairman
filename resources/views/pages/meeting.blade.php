@@ -13,7 +13,7 @@
 @include('sections.header')
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-12">
+            <div class="offset-sm-3 col-sm-6">
                 <div class="card" style="width: 100%;">
                     <div class="card-header">
                         @lang('titles.participants')
@@ -31,9 +31,10 @@
                     </ul>
                 </div>
             </div>
-            <div class="offset-sm-4 col-sm-4">
-                <img src="" alt="">
-                <h5>@lang('titles.dontTalk')</h5>
+            <div class="speech-status offset-sm-4 col-sm-4">
+                <img class="mic-image" src="{{ asset('images/off-mic.png') }}" alt="">
+                <h5>@lang('titles.speechOff')</h5>
+                <p style="font-size: 13px">@lang('titles.dontTalk')</p>
                 <button type="button" class="raise-hand">@lang('titles.raiseHand')</button>
             </div>
         </div>

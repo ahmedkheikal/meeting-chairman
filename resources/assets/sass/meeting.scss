@@ -17,6 +17,9 @@ footer, html {
     color: $white;
 }
 
+.speech-status * {
+    color: $white
+}
 .raise-hand {
     border-radius: 50%;
     width: 50px;
@@ -34,4 +37,7 @@ footer, html {
     outline: none;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     transition: 300ms linear all;
+}
+.mic-image {
+    width: 50px
 }

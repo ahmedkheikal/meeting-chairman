@@ -10,14 +10,5 @@
 .people-you-know {
   height: 350px;
   overflow: scroll;
-  text-align: left;
 }
 
-ul.people-you-know li {
-    cursor: pointer;
-    transition: 200ms linear all;
-}
-ul.people-you-know li:hover {
-    background: rgba(10, 10, 10, 0.1);
-    transition: 200ms linear all;
-}

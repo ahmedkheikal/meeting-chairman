@@ -32,6 +32,22 @@ html {
   width: 50%;
 
 }
+@media (max-width: 676px) {
+    .first-headline {
+        top: 10%;
+        left: 5%;
+        width: 90%;
+    }
+    .cover img {
+      width: 100%;
+      height: calc( 100vh - 56px );
+      object-fit: cover;
+      filter: brightness(.4);
+
+
+      mask-image: none;
+    }
+}
 .first-headline p {
   margin-top: 20px;
   line-height: 200%;
