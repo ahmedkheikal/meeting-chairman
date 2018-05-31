@@ -11,6 +11,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    @yield('metadata')
     <title>{{ $title . $suffix }}</title>
     {{-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> --}}
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">     {{-- compiled from mix --}}

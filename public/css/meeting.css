@@ -1,0 +1,47 @@
+.bg-light,
+.container-fluid {
+  background-color: #f44235 !important;
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #fafafa;
+}
+
+body > .container-fluid {
+  min-height: 90vh;
+  text-align: center;
+}
+
+footer,
+html {
+  background: #f44235;
+  color: #fafafa;
+}
+
+.raise-hand {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background: white;
+  color: #444;
+  font-size: 12px;
+  text-align: center;
+  border: none;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  -webkit-transition: 300ms linear all;
+  transition: 300ms linear all;
+}
+
+.raise-hand:hover,
+.raise-hand:focus {
+  outline: none;
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  -webkit-transition: 300ms linear all;
+  transition: 300ms linear all;
+}
+

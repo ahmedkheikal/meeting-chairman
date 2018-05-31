@@ -17,8 +17,28 @@
         </li>
       </ul>
       <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          <ul class="navbar-nav mr-auto">
+              @guest
+                  <li><a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a></li>
+                  <li><a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a></li>
+              @else
+                  <li class="nav-item dropdown">
+                      <a class="nav-link" href="/account-settings#">Account Settings</a>
+
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="{{ route('logout') }}"
+                          onclick="event.preventDefault();
+                          document.getElementById('logout-form').submit();">
+                          {{ __('Logout') }}
+                      </a>
+
+                      <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                          @csrf
+                      </form>
+                  </div>
+              </li>
+          @endguest
+          </ul>
       </form>
     </div>
   </nav>

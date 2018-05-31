@@ -1,0 +1,12 @@
+.people-you-know img {
+    width: 2rem;
+    height: 2rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.people-you-know {
+    height: 350px;
+    overflow: scroll;
+}

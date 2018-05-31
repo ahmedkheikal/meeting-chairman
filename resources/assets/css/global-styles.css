@@ -1,6 +1,9 @@
 * {
   font-family: 'Ubuntu', sans-serif !important;
 }
+html {
+    background: #fafafa;
+}
 /*cover*/
 .cover {
   background: #222;

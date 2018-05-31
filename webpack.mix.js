@@ -1,4 +1,4 @@
-let mix = require('laravel-mix');
+var mix = require('laravel-mix');
 
 /*
  |--------------------------------------------------------------------------
@@ -13,6 +13,9 @@ let mix = require('laravel-mix');
 
  mix.js('resources/assets/js/app.js', 'public/js')
    .sass('resources/assets/sass/app.scss', 'public/css')
+   .sass('resources/assets/sass/dashboard.scss', 'public/css')
+   .sass('resources/assets/sass/meeting.scss', 'public/css')
+   .sass('resources/assets/sass/peopleList.scss', 'public/css')
    .sass('resources/assets/sass/static.scss', 'public/css');
 // mix.js('resources/assets/js/app.js', 'public/js')
 //    .sass('resources/assets/sass/app.scss', 'public/css');
