@@ -15,6 +15,12 @@
         <li class="nav-item {{$suffix == ' |  Contact Us' ? 'active' : ''}}">
           <a class="nav-link" href="/contact-us">Contact us</a>
         </li>
+        @guest
+        @else
+            <li class="nav-item {{$suffix == ' |  Dashboard' ? 'active' : ''}}">
+                <a class="nav-link" href="/dashboard">dashboard</a>
+            </li>
+        @endguest
       </ul>
       <form class="form-inline my-2 my-lg-0">
           <ul class="navbar-nav mr-auto">
