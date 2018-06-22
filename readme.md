@@ -18,5 +18,3 @@ Don't forget to perform `$ composer install` and `$ npm install` inside the proj
 - global styles and scripts are compiled at `Webpack.min.js` <br>
 - to compile assets run `npm run dev`
 to listen to asset change `npm run watch`
-
-#### Getting started with pusher
